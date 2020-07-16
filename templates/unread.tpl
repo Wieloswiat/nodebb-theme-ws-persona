@@ -33,7 +33,7 @@
 				<li class="divider"></li>
 				{{{each categories}}}
 				<li role="presentation" class="category" data-cid="{categories.cid}">
-					<a role="menu-item" href="#">{categories.level}<!-- IF categories.icon --><span class="fa-stack" style="{function.generateCategoryBackground}"><i class="fa fa-fw fa-stack-1x {categories.icon}" style="color: {categories.color};"></i></span><!-- ENDIF categories.icon --> {categories.name}</a>
+					<a role="menu-item" href="#">{categories.level}<!-- IF categories.icon --><span class="fa-stack lozad" style="{function.generateCategoryBackground}"><i class="fa fa-fw fa-stack-1x {categories.icon}" style="color: {categories.color};"></i></span><!-- ENDIF categories.icon --> {categories.name}</a>
 				</li>
 				{{{end}}}
 			</ul>
