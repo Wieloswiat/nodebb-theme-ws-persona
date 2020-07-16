@@ -191,7 +191,7 @@
 					<!-- ENDIF showAsPosts -->
 
 					<small class="post-info pull-right">
-						<a href="{config.relative_path}/category/{posts.category.slug}"><span class="fa-stack" style="{function.generateCategoryBackground, posts.category}"><i style="color:{posts.category.color};" class="fa {posts.category.icon} fa-stack-1x"></i></span> {posts.category.name}</a> &bull;
+						<a href="{config.relative_path}/category/{posts.category.slug}"><span class="fa-stack lozad" style="{function.generateCategoryBackground, posts.category}"><i style="color:{posts.category.color};" class="fa {posts.category.icon} fa-stack-1x"></i></span> {posts.category.name}</a> &bull;
 						<span class="timeago" title="{posts.timestampISO}"></span>
 					</small>
 				</div>
