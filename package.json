@@ -1,5 +1,5 @@
 {
-  "name": "nodebb-theme-persona",
+  "name": "nodebb-theme-ws-persona",
   "version": "10.5.10",
   "nbbpm": {
     "compatibility": "^1.17.0"
