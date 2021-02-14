@@ -27,9 +27,7 @@
     class="dropdown-menu category-dropdown-menu"
     role="menu"
 >
-    {{{ if allCategoriesUrl
-
-    }}}
+    {{{ if allCategoriesUrl }}}
     <li role="presentation" class="category" data-all="all">
         <a role="menu-item" href="{config.relative_path}/{allCategoriesUrl}"
             ><i
@@ -39,12 +37,8 @@
             [[unread:all_categories]]</a
         >
     </li>
-    {{{ end
-
-    }}}
-    {{{each categoryItems
-
-    }}}
+    {{{ end }}}
+    {{{each categoryItems }}}
     <li
         role="presentation"
         class="category {{{ if ../disabledClass }}}disabled{{{ end }}}"
@@ -75,7 +69,5 @@
             ></a
         >
     </li>
-    {{{end
-
-    }}}
+    {{{end}}}
 </ul>

@@ -46,8 +46,7 @@
                 <span class="caret"></span>
             </button>
             <ul class="dropdown-menu" role="menu">
-                {{{each filters
-                }}}
+                {{{each filters}}}
                 <li
                     role="presentation"
                     class="category {{{if filters.selected}}}selected{{{end}}}"
@@ -61,8 +60,7 @@
                         >{filters.name}</a
                     >
                 </li>
-                {{{end
-                }}}
+                {{{end}}}
             </ul>
         </div>
     </div>
