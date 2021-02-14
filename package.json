@@ -1,30 +1,11 @@
 {
-  "name": "nodebb-theme-ws-persona",
-  "version": "10.5.10",
-  "nbbpm": {
-    "compatibility": "^1.17.0"
-  },
-  "description": "Persona theme for NodeBB",
-  "main": "library.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/psychobunny/nodebb-theme-persona"
-  },
-  "keywords": [
-    "nodebb",
-    "theme",
-    "forum",
-    "bootstrap",
-    "responsive"
-  ],
-  "contributors": [
-    {
-      "name": "Andrew Rodrigues",
-      "email": "andrew@designcreateplay.com",
-      "url": "https://github.com/psychobunny"
+    "name": "nodebb-theme-ws-persona",
+    "version": "10.5.10",
+    "nbbpm": {
+        "compatibility": "^1.17.0"
     },
     "description": "Persona theme for NodeBB",
-    "main": "theme.less",
+    "main": "library.js",
     "repository": {
         "type": "git",
         "url": "https://github.com/psychobunny/nodebb-theme-persona"
