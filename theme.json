@@ -1,7 +1,7 @@
 {
     "id": "nodebb-theme-ws-persona",
-    "name": "Persona",
-    "description": "The default theme for NodeBB. Uses a standard approach to forum design.",
+    "name": "Wieloświat",
+    "description": "The default theme for NodeBB. Uses a standard approach to forum design, modified a tiny bit for purposes of Wieloświat",
     "url": "https://github.com/psychobunny/nodebb-theme-persona",
     "screenshot": "screenshot.png"
 }
